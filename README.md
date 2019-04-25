@@ -17,3 +17,10 @@ The kata will mainly consist in making the tests to pass.
 
 At each step you will have to uncomment the tests corresponding to the step and make them pass.
 
+### Step 1 : retrieving countries by their capital
+
+1. Uncomment the `STEP-1` tests in CountryServiceTest
+1. Make the tests to pass by modifying the CountryService implementation
+1. Refactor `CountryServiceTest#can_find_paris()` to remove the `isPresent()` call in favor 
+of a more suited `Optional` method call.
+
